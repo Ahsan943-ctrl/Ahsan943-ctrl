@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Voiceovers With Ahsan</title>
+    <meta name="description" content="Professional voiceover services for your videos, available in English and Urdu.">
+    <meta name="keywords" content="voiceovers, transcription, dubbing, English, Urdu">
+    <link rel="stylesheet" href="111.css">
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .header .logo__image {
+            vertical-align: middle;
+            margin-right: 30px;
+        }
+        .project {
+            border: 1px solid #fcfcfd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .back-to-top.show {
+            display: block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .section__title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section__content, .service__description, .project__description {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .service, .project {
+            margin-bottom: 30px;
+        }
+        .services, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service, .project {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .video-container {
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .video-container video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <img src="logo0.png" alt="Logo" class="logo__image">
+                Voiceovers With Ahsan
+            </h1>
+            <nav class="nav" aria-label="Main Navigation">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 class="hero__title">Welcome to Voiceovers with Ahsan. </h2>
+            <p class="hero__subtitle">A place where your videos get their voice.your one-stop solution for professional voiceover services in English and Urdu. With over 5 years of experience in the industry. </p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section__title">About Us</h2>
+            <p class="section__content">Get all your videos heard and dubbed in English and Urdu.With an Engineering Background I offer Voiceover services with experience of more than 5 years.we specialize in bringing your videos to life with clear, engaging, and authentic voiceovers</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section__title">Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3 class="service__title">Voiceovers</h3>
+                    <p class="service__description">Professional voiceovers for all your video needs.</p>
+                </div>
+                <div class="service">
+                    <h3 class="service__title">Transcription</h3>
+                    <p class="service__description">Accurate and efficient transcription services.</p>
+                </div>
+                <div class="service">
+                    <h3 class="service__title">Dubbing</h3>
+                    <p class="service__description">High-quality dubbing in English and Urdu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section__title">My Projects</h2>
+            <div id="projects-container" class="projects">
+                <!-- Projects will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="section">
+        <div class="container">
+            <h2 class="section__title">Project Samples</h2>
+            <div class="video-container">
+                <title>Multiple Videos</title>
+            </head>
+            <body>
+            
+            <h2>Youtube Video</h2>
+            <video width="320" height="240" controls>
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video1.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            
+            <h2>ObamaCare</h2>
+            <video width="320" height="240" controls>
+                <source src="video1.mp4" type="video/mp4">
+                <source src="video2.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            
+                <!-- <h2>Sample Video with Sound</h2>
+                <video width="320" height="240" controls>
+                    <source src="video/video.mp4" type="video/mp4">
+                    Your browser does not support the video tag. -->
+                  </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section__title">Contact Us</h2>
+            <form class="contact-form" action="contact.php" method="POST">
+                <div class="form-group">
+                    <label for="name" class="form-label">Your Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Your Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Voiceovers with Ahsan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to Top">↑</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const projectsContainer = document.getElementById("projects-container");
+            const projects = [
+                { title: "Project 1", description: "ObamaCare Voiceover" },
+                { title: "Project 2", description: "YouTube Video Voiceover" },
+                { title: "Project 3", description: "Description for Project 3" }
+            ];
+
+            projects.forEach(project => {
+                const projectDiv = document.createElement("div");
+                projectDiv.classList.add("project");
+
+                const projectTitle = document.createElement("h3");
+                projectTitle.classList.add("project__title");
+                projectTitle.textContent = project.title;
+
+                const projectDescription = document.createElement("p");
+                projectDescription.classList.add("project__description");
+                projectDescription.textContent = project.description;
+
+                projectDiv.appendChild(projectTitle);
+                projectDiv.appendChild(projectDescription);
+
+                projectsContainer.appendChild(projectDiv);
+            });
+        });
+
+        // Show or hide the back-to-top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.getElementById('back-to-top');
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        // Scroll to the top when the button is clicked
+        document.getElementById('back-to-top').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
